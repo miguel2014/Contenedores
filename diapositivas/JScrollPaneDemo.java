@@ -151,6 +151,8 @@ public class JScrollPaneDemo {
 		JMenuItem mntmComparar = new JMenuItem("Comparar");
 		mntmComparar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				textAreaInferior.setText("Lineas repetidas:\n");
+				
 			}
 		});
 		mnAccion.add(mntmComparar);
